@@ -5,9 +5,9 @@ from .base import *
 SECRET_KEY = env.str("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['.herokuapp.com']
+ALLOWED_HOSTS = ['exotictoys.herokuapp.com']
 
 # Amazon S3 Settings
 AWS_ACCESS_KEY_ID = env.str("AWS_ACCESS_KEY_ID")
